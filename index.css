@@ -1,3 +1,77 @@
-body {
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+COLORS: 
+#2F3E53
+#4ADF86
+#ffffff
+#D5D4D8
+*/
+
+/* ***************** */
+/* body {
+  margin: 0; 
+} */
+/* ***************** */
+
+body {
+  font-family: "Inter", sans serif;
+  color: #ffffff;
+  background-color: #2f3e53;
+  margin-left: 52px;
+}
+
+.header {
+  margin-top: 115px;
+  margin-bottom: 10px;
+  width: 354px;
+  height: 80px;
+  letter-spacing: -2.5%;
+  line-height: 22px;
+}
+
+.white-header {
+  font-weight: 800;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.green-header {
+  font-weight: 800;
+  font-size: 40px;
+  color: #4adf86;
+}
+
+.gray-text {
+  width: 372px;
+  height: 28px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+}
+
+#getPasswordButton {
+  /* width: 159px;
+  height: 24px; */
+  padding: 9px 17px 9px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #4adf86;
+  margin-bottom: 44px;
 }
